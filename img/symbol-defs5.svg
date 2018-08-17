@@ -1,0 +1,12 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-rate_review" viewBox="0 0 24 24">
+<title>rate_review</title>
+<path d="M18 14.016v-2.016h-5.484l-2.016 2.016h7.5zM6 14.016h2.484l6.891-6.891c0.188-0.188 0.188-0.516 0-0.703l-1.781-1.781c-0.188-0.188-0.516-0.188-0.703 0l-6.891 6.891v2.484zM20.016 2.016c1.078 0 1.969 0.891 1.969 1.969v12c0 1.078-0.891 2.016-1.969 2.016h-14.016l-3.984 3.984v-18c0-1.078 0.891-1.969 1.969-1.969h16.031z"></path>
+</symbol>
+<symbol id="icon-enter" viewBox="0 0 32 32">
+<title>enter</title>
+<path d="M12 16h-10v-4h10v-4l6 6-6 6zM32 0v26l-12 6v-6h-12v-8h2v6h10v-18l8-4h-18v8h-2v-10z"></path>
+</symbol>
+</defs>
+</svg>
