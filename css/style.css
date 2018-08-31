@@ -37,18 +37,19 @@ body {
 }
 
 .container {
-  display: -ms-grid;
  display: grid; 
-  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
   grid-template-columns: minmax(6rem, 1fr) repeat(10, 1fr) minmax(6rem, 1fr);
-  -ms-grid-rows: auto;
   grid-template-rows: 6rem calc(70vh - 6rem) minmax(10rem, min-content) minmax(10rem, min-content) minmax(12rem, min-content);
   grid-row-gap: 1rem;
   grid-column-gap: 2rem;
-
 }
 
+.notice {
+  font-size: 1.5rem;
+  color: red;
+  background-color: lightgray;
 
+}
 
 /* -------------------------------
     Header
@@ -57,6 +58,7 @@ body {
   background-color: white;
   font-family: inherit;
   font-size: 1.6rem;
+  height: 7.1rem;
   
 /*   border: 1px solid #000; */
   grid-column: 1 / -1;
@@ -79,7 +81,7 @@ justify-self: center;
 }
 
 .logo img {
-  height: 6.15rem;
+  height: 6.1rem;
   margin-top: .5rem;
 }
 
