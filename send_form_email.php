@@ -1,3 +1,14 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Thank You</title>
+  <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,600i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+</head>
+<body>
 <?php
 if(isset($_POST['email'])) {
  
@@ -75,11 +86,6 @@ $headers = 'From: '.$email_from."\r\n".
 ?>
  
 <!-- include your own success html here -->
- 
-<h1> Thank you for contacting us. We will be in touch with you very soon. </h1>
-<!-- I can just insert basic HTML and link here --> 
-<p> To return to the home page, please click <a href="index.html"> here </a> </p>
-
 
 <!-- javascript redirect or PhP redirect-->
 
@@ -87,3 +93,50 @@ $headers = 'From: '.$email_from."\r\n".
  
 }
 ?>
+<div class="container_contact">
+        <header class="header">
+            <div class="logo">
+              <img src="img/larryslogo.jpg" alt="Larry's Logo" class="logo-pic">
+            </div>
+            <div class="slogan">Gracepark Road, Drumcondra | 01-8373490</div>
+          
+              <ul class="main-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="index.html#about-us">About us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+           
+          </header>
+          <div class="banner">
+              <h1 class="pageHeader">
+                  <span>Contact </span> Larry's
+              </h1>
+
+          </div>
+          <div class="thankyou">
+<h1> Thank you for contacting us. We will be in touch with you very soon. </h1>
+<!-- I can just insert basic HTML and link here --> 
+<p> To return to the home page, please click <a href="index.html" class="php_button"> here </a> </p>
+
+</div>
+<footer class="footer">
+              <div class="footer__phone-fax">
+                <div class="footer__phone-fax__phone">
+                  Ph:  01 8373490
+                </div>
+              </div>
+  
+              <div class="footer__email">
+                info@larrysdiy.ie
+              </div>
+              <div class="footer__address">
+                17 Gracepark Road (Richmond Rd end), Drumcondra, Dublin 9
+              </div>
+              <div class="footer__copyright">
+                &copy; Rocket.Chip Web Solutions 2018
+              </div>
+            </footer>
+</div>
+</body>
+</html>
