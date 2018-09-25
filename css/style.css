@@ -1029,6 +1029,7 @@ textarea {
   
 grid-template-columns: 10rem repeat(10, 1fr) 10rem;
 grid-template-rows: 6rem 15rem;
+grid-auto-rows: auto;
 grid-row-gap: 1rem;
 grid-column-gap: 2rem;
 
@@ -1558,7 +1559,7 @@ grid-column-gap: 2rem;
   grid-column: 1 / 2;
   grid-row: 2 / 3;
 
-  height: 20rem;
+  height: 30rem;
   width: 30rem;
 
   justify-self: center;
@@ -1568,7 +1569,7 @@ grid-column-gap: 2rem;
   grid-column: 2 / 3;
   grid-row: 2 / 3;
 
-  height: 20rem;
+  height: 30rem;
   width: 30rem;
 
   justify-self: center;
@@ -2263,7 +2264,7 @@ grid-column-gap: 2rem;
   .fuel-gallery {
     grid-column: 1 / -1;
     grid-template-columns: 1fr;
-    grid-template-rows: .5fr 1fr 1fr;
+    grid-template-rows: .3fr 1fr 1fr;
   }
 
   .fuel-gallery__text {
