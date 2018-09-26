@@ -108,7 +108,7 @@ $headers = 'From: '.$email_from."\r\n".
             <div class="logo">
               <img src="img/larryslogo.jpg" alt="Larry's Logo" class="logo-pic">
             </div>
-            <div class="slogan">Gracepark Road, Drumcondra | 01-8373490</div>
+            <div class="slogan">17 Gracepark Road (Richmond Rd end), Drumcondra, Dublin 9 | 01 837 3490</div>
           
               <ul class="main-nav">
                 <li><a href="index.html">Home</a></li>
@@ -133,7 +133,7 @@ $headers = 'From: '.$email_from."\r\n".
 <footer class="footer">
               <div class="footer__phone-fax">
                 <div class="footer__phone-fax__phone">
-                  Ph:  01 8373490
+                  Ph:  01 837 3490
                 </div>
               </div>
   
