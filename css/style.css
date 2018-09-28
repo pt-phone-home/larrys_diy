@@ -1090,7 +1090,7 @@ grid-column-gap: 2rem;
   height: 30rem;
   width: 40rem;
   padding: 1.5rem;
-  border: 1px dashed var(--primary-logo);
+  /* border: 1px dashed var(--primary-logo); */
   /* width: 5rem; */
 }
 
@@ -1239,7 +1239,7 @@ grid-column-gap: 2rem;
   height: 25rem;
   width: 30rem;
   padding: 1.5rem;
-  border: 2px dashed var(--primary-logo);
+  /* border: 2px dashed var(--primary-logo); */
 }
 
 .diy_content-list {
