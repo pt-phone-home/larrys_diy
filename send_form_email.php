@@ -96,13 +96,6 @@ $headers = 'From: '.$email_from."\r\n".
 ?>
  
 <!-- include your own success html here -->
-
-<!-- javascript redirect or PhP redirect-->
-
-<?php
- 
-}
-?>
 <div class="container_contact">
         <header class="header">
             <div class="logo">
@@ -148,5 +141,12 @@ $headers = 'From: '.$email_from."\r\n".
               </div>
             </footer>
 </div>
+<!-- javascript redirect or PhP redirect-->
+
+<?php
+ 
+}
+?>
+
 </body>
 </html>
