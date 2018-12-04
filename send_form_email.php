@@ -23,7 +23,7 @@
 if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "ptiernan@gmail.com";
+    $email_to = "info@larrysdiy.ie";
     $email_subject = "Message from Larry's DIY website";
  
     function died($error) {
@@ -124,22 +124,28 @@ $headers = 'From: '.$email_from."\r\n".
 
 </div>
 <footer class="footer">
-              <div class="footer__phone-fax">
-                <div class="footer__phone-fax__phone">
-                  Ph:  01 837 3490
-                </div>
-              </div>
-  
-              <div class="footer__email">
-                info@larrysdiy.ie
-              </div>
-              <div class="footer__address">
-                17 Gracepark Road (Richmond Rd end), Drumcondra, Dublin 9
-              </div>
-              <div class="footer__copyright">
-                &copy; Rocket.Chip Web Solutions 2018
-              </div>
-            </footer>
+      <div class="footer__phone-fax">
+        <div class="footer__phone-fax__phone">
+          <strong>Contact</strong>
+          <br> Ph: 01 837 3490
+          <br> Email: info@larrysdiy.ie
+          <br> Address: 17 Gracepark Road (Richmond Rd end), Drumcondra, Dublin 9
+        </div>
+      </div>
+
+      <div class="footer__email">
+        <!-- info@larrysdiy.ie -->
+      </div>
+      <div class="footer__address">
+        Find us on Facebook
+        <a href="https://www.facebook.com/larrysdiy/" target="_blank">
+          <i class="fab fa-facebook-square footer-facebook"></i>
+        </a>
+      </div>
+      <div class="footer__copyright">
+        &copy; Rocket.Chip Web Solutions 2018
+      </div>
+    </footer>
 </div>
 <!-- javascript redirect or PhP redirect-->
 
